@@ -278,12 +278,6 @@ const Menu: React.FunctionComponent<MenuProps> = ({
                 {translate('loadedapp.votefornym') as string}
               </RegText>
             )}
-          <RegText
-            onPress={() => onItemSelectedWrapper(MenuItemEnum.Support)}
-            style={item}
-          >
-            {translate('loadedapp.support') as string}
-          </RegText>
         </View>
       </DrawerContentScrollView>
       <View

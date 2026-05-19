@@ -62,6 +62,11 @@ const About: React.FunctionComponent<AboutProps> = ({ navigation }) => {
           label={translate('info.zingolib') as string}
           value={zingolibVersion}
         />
+        <DetailLine
+          label={translate('loadedapp.support') as string}
+          value={translate('email') as string}
+          testID="about.support-email"
+        />
         <View style={{ marginTop: 20 }}>
           {arrayTxt.map((txt: string, ind: number) => (
             <View key={txt.substring(0, 10)}>
